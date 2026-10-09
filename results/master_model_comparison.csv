@@ -1,0 +1,13 @@
+model_name,category,roc_auc_or_range,balanced_accuracy,f1,source_phase,source_file
+DualBranchGAT (primary),primary,0.882 ± 0.056 (fold mean ± std),0.756,0.868,13,cv_fold_metrics.csv
+DualBranchGAT,tci_baseline,0.878 (pooled value),0.757,0.869,14,baseline_comparison.csv
+LR_worse_foot_tci,tci_baseline,0.859 (pooled value),0.786,0.804,14,baseline_comparison.csv
+AdaBoost_both_feet_tci,tci_baseline,0.838 (pooled value),0.81,0.836,14,baseline_comparison.csv
+LR_both_feet_tci,tci_baseline,0.828 (pooled value),0.724,0.714,14,baseline_comparison.csv
+AdaBoost_worse_foot_tci,tci_baseline,0.825 (pooled value),0.748,0.787,14,baseline_comparison.csv
+structure_ablation: diagonal_only,structure_ablation,0.887 ± 0.052 (fold mean ± std),0.746,0.874,17,structure_ablation_results.csv
+structure_ablation: base_real,structure_ablation,0.883 ± 0.052 (fold mean ± std),0.741,0.859,17,structure_ablation_results.csv
+structure_ablation: selfloop_only,structure_ablation,0.883 ± 0.056 (fold mean ± std),0.725,0.845,17,structure_ablation_results.csv
+structure_ablation: base_no_edgefeat,structure_ablation,0.874 ± 0.055 (fold mean ± std),0.765,0.878,17,structure_ablation_results.csv
+BilateralGAT,bilateral,0.879 ± 0.053 (fold mean ± std),0.77,0.836,23,bilateral_graph_results.csv
+Final 3-way fusion (headline),final_headline,0.880 ± 0.013 (fold mean ± std),0.789,0.844,24,final_fusion_polish.csv

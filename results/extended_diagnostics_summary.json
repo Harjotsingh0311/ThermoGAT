@@ -1,0 +1,66 @@
+{
+  "pr_auc": {
+    "DualBranchGAT": 0.9536895954329301,
+    "LR_worse_foot_tci": 0.9503771493345378,
+    "LR_both_feet_tci": 0.9386083245849273,
+    "AdaBoost_worse_foot_tci": 0.9218006307416745,
+    "AdaBoost_both_feet_tci": 0.9425273836057296
+  },
+  "no_skill_pr_auc_baseline": 0.7305389221556886,
+  "dm_prevalence": 0.7305389221556886,
+  "brier_scores": {
+    "DualBranchGAT": 0.12718959590689635,
+    "LR_worse_foot_tci": 0.15887195639397894
+  },
+  "best_baseline_name": "LR_worse_foot_tci",
+  "error_overlap_group_counts": {
+    "BOTH_CORRECT": 116,
+    "GAT_ONLY_CORRECT": 19,
+    "BASELINE_ONLY_CORRECT": 11,
+    "BOTH_WRONG": 21
+  },
+  "error_overlap_group_percent": {
+    "BOTH_CORRECT": 69.46,
+    "GAT_ONLY_CORRECT": 11.38,
+    "BASELINE_ONLY_CORRECT": 6.59,
+    "BOTH_WRONG": 12.57
+  },
+  "error_overlap_crosstab_counts": {
+    "Control": {
+      "BOTH_CORRECT": 28,
+      "GAT_ONLY_CORRECT": 1,
+      "BASELINE_ONLY_CORRECT": 9,
+      "BOTH_WRONG": 7
+    },
+    "DM": {
+      "BOTH_CORRECT": 88,
+      "GAT_ONLY_CORRECT": 18,
+      "BASELINE_ONLY_CORRECT": 2,
+      "BOTH_WRONG": 14
+    }
+  },
+  "error_overlap_crosstab_row_percent": {
+    "Control": {
+      "BOTH_CORRECT": 24.14,
+      "GAT_ONLY_CORRECT": 5.26,
+      "BASELINE_ONLY_CORRECT": 81.82000000000001,
+      "BOTH_WRONG": 33.33
+    },
+    "DM": {
+      "BOTH_CORRECT": 75.86,
+      "GAT_ONLY_CORRECT": 94.74000000000001,
+      "BASELINE_ONLY_CORRECT": 18.18,
+      "BOTH_WRONG": 66.67
+    }
+  },
+  "sensitivity_specificity_reference_points": {
+    "DualBranchGAT_at_pred_label_optimal": {
+      "sensitivity": 0.8688524590163934,
+      "specificity": 0.6444444444444445
+    },
+    "LR_worse_foot_tci_at_0.5_cutoff": {
+      "sensitivity": 0.7377049180327869,
+      "specificity": 0.8222222222222222
+    }
+  }
+}

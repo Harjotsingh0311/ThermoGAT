@@ -1,0 +1,58 @@
+{
+  "roc_auc_fold_mean": 0.8785925925925925,
+  "roc_auc_fold_std": 0.052834050572172005,
+  "balanced_accuracy_fold_mean": 0.7704444444444445,
+  "balanced_accuracy_fold_std": 0.1223598656765978,
+  "f1_fold_mean": 0.8363135918455068,
+  "f1_fold_std": 0.05299455331235317,
+  "accuracy_fold_mean": 0.7782531194295901,
+  "accuracy_fold_std": 0.06268518752991896,
+  "roc_auc_pooled": 0.8595628415300547,
+  "balanced_accuracy_pooled": 0.7712204007285974,
+  "f1_pooled": 0.8384279475982532,
+  "accuracy_pooled": 0.7784431137724551,
+  "extraction_path_used": "imported utility (src.model.sparse_to_dense_graph)",
+  "mc_dropout_used": false,
+  "reference_values": {
+    "DualBranchGAT_primary_phase13": {
+      "roc_auc_fold_mean": 0.882,
+      "roc_auc_fold_std": 0.056
+    },
+    "graph_only_base_phase17": {
+      "roc_auc_fold_mean": 0.8831
+    },
+    "TCI_only_phase14": {
+      "roc_auc_pooled": 0.859
+    },
+    "Fusion_B_phase16": {
+      "roc_auc_pooled": 0.889
+    }
+  },
+  "per_fold": [
+    {
+      "fold": 0,
+      "best_epoch": 18,
+      "best_val_roc_auc": 0.825
+    },
+    {
+      "fold": 1,
+      "best_epoch": 3,
+      "best_val_roc_auc": 1.0
+    },
+    {
+      "fold": 2,
+      "best_epoch": 0,
+      "best_val_roc_auc": 0.975
+    },
+    {
+      "fold": 3,
+      "best_epoch": 22,
+      "best_val_roc_auc": 0.925
+    },
+    {
+      "fold": 4,
+      "best_epoch": 0,
+      "best_val_roc_auc": 1.0
+    }
+  ]
+}

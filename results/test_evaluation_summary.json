@@ -1,0 +1,104 @@
+{
+  "optimal_threshold": 0.6103553771972656,
+  "foot_level_metrics": {
+    "plain": {
+      "threshold_0.5": {
+        "roc_auc": 0.8364661654135339,
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.6710526315789473,
+        "f1": 0.8311688311688312
+      },
+      "threshold_optimal": {
+        "roc_auc": 0.8364661654135339,
+        "accuracy": 0.7692307692307693,
+        "balanced_accuracy": 0.706766917293233,
+        "f1": 0.8421052631578947
+      }
+    },
+    "mc_dropout_T30": {
+      "threshold_0.5": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.6710526315789473,
+        "f1": 0.8311688311688312,
+        "roc_auc": 0.8364661654135338
+      },
+      "threshold_optimal": {
+        "accuracy": 0.7692307692307693,
+        "balanced_accuracy": 0.706766917293233,
+        "f1": 0.8421052631578947,
+        "roc_auc": 0.8364661654135338
+      }
+    }
+  },
+  "subject_level_metrics": {
+    "threshold_0.5": {
+      "accuracy": 0.7307692307692307,
+      "balanced_accuracy": 0.6804511278195489,
+      "f1": 0.8108108108108109,
+      "roc_auc": 0.8571428571428571
+    },
+    "threshold_optimal": {
+      "accuracy": 0.7307692307692307,
+      "balanced_accuracy": 0.6804511278195489,
+      "f1": 0.8108108108108109,
+      "roc_auc": 0.8571428571428571
+    }
+  },
+  "confusion_matrix": {
+    "threshold_0.5": [
+      [
+        7,
+        7
+      ],
+      [
+        6,
+        32
+      ]
+    ],
+    "threshold_optimal": [
+      [
+        8,
+        6
+      ],
+      [
+        6,
+        32
+      ]
+    ]
+  },
+  "rejection_curve": [
+    {
+      "retained_fraction": 1.0,
+      "n_samples": 52,
+      "accuracy_optimal_threshold": 0.7692307692307693
+    },
+    {
+      "retained_fraction": 0.9,
+      "n_samples": 47,
+      "accuracy_optimal_threshold": 0.7872340425531915
+    },
+    {
+      "retained_fraction": 0.75,
+      "n_samples": 39,
+      "accuracy_optimal_threshold": 0.8717948717948718
+    },
+    {
+      "retained_fraction": 0.5,
+      "n_samples": 26,
+      "accuracy_optimal_threshold": 1.0
+    },
+    {
+      "retained_fraction": 0.25,
+      "n_samples": 13,
+      "accuracy_optimal_threshold": 1.0
+    }
+  ],
+  "checkpoint_path": "c:\\workstation\\3RD YEAR\\Diabetic_Foot\\checkpoints\\primary_model_best.pt",
+  "config": {
+    "use_graph_branch": true,
+    "use_image_branch": true,
+    "graph_topology": "base",
+    "image_key": "colormap_image",
+    "image_in_channels": 3
+  }
+}

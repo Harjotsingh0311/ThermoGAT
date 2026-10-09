@@ -1,0 +1,88 @@
+{
+  "n_folds": 5,
+  "config": {
+    "use_graph_branch": true,
+    "use_image_branch": true,
+    "graph_topology": "base",
+    "image_key": "colormap_image",
+    "image_in_channels": 3
+  },
+  "fold_mean_std": {
+    "roc_auc": {
+      "mean": 0.8824074074074074,
+      "std": 0.05641313411751046
+    },
+    "balanced_accuracy": {
+      "mean": 0.7557222222222222,
+      "std": 0.13022914278159717
+    },
+    "f1": {
+      "mean": 0.8675078159114614,
+      "std": 0.04344587557527256
+    },
+    "accuracy": {
+      "mean": 0.8080213903743315,
+      "std": 0.06263511264602548
+    }
+  },
+  "pooled_metrics": {
+    "roc_auc": 0.8777777777777778,
+    "balanced_accuracy": 0.756648451730419,
+    "f1": 0.8688524590163934,
+    "accuracy": 0.8083832335329342
+  },
+  "per_fold_metrics": [
+    {
+      "roc_auc": 0.9555555555555556,
+      "balanced_accuracy": 0.8688888888888888,
+      "f1": 0.9411764705882353,
+      "accuracy": 0.9117647058823529,
+      "fold": 0
+    },
+    {
+      "roc_auc": 0.8222222222222222,
+      "balanced_accuracy": 0.5555555555555556,
+      "f1": 0.8620689655172413,
+      "accuracy": 0.7647058823529411,
+      "fold": 1
+    },
+    {
+      "roc_auc": 0.8425925925925926,
+      "balanced_accuracy": 0.75,
+      "f1": 0.851063829787234,
+      "accuracy": 0.7878787878787878,
+      "fold": 2
+    },
+    {
+      "roc_auc": 0.9259259259259259,
+      "balanced_accuracy": 0.875,
+      "f1": 0.8571428571428571,
+      "accuracy": 0.8181818181818182,
+      "fold": 3
+    },
+    {
+      "roc_auc": 0.8657407407407407,
+      "balanced_accuracy": 0.7291666666666666,
+      "f1": 0.8260869565217391,
+      "accuracy": 0.7575757575757576,
+      "fold": 4
+    }
+  ],
+  "per_fold_threshold": {
+    "0": 0.3380048871040344,
+    "1": 0.3094308078289032,
+    "2": 0.5426410436630249,
+    "3": 0.6679388880729675,
+    "4": 0.49418553709983826
+  },
+  "phase11_comparison": {
+    "phase11_single_split_subject_roc_auc": 0.8571428571428571,
+    "fold_roc_auc_range": [
+      0.8222222222222222,
+      0.9555555555555556
+    ],
+    "phase11_within_fold_spread": true
+  },
+  "normalization_stats_source": "Phase 7 (reused as-is, not refit per fold)",
+  "random_seed": 42
+}

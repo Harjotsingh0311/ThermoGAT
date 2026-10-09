@@ -1,0 +1,27 @@
+{
+  "config": {
+    "use_graph_branch": true,
+    "use_image_branch": true,
+    "graph_topology": "base",
+    "image_key": "colormap_image",
+    "image_in_channels": 3
+  },
+  "hyperparameters": {
+    "max_epochs": 150,
+    "patience": 20,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 16
+  },
+  "class_weights": {
+    "weight_control": 1.8709677419354838,
+    "weight_dm": 0.6823529411764706,
+    "pos_weight_used": "weight_dm"
+  },
+  "best_epoch": 8,
+  "best_val_roc_auc": 0.9404761904761905,
+  "best_val_balanced_accuracy": 0.7797619047619048,
+  "total_epochs_run": 29,
+  "early_stopping_triggered": true,
+  "checkpoint_path": "c:\\workstation\\3RD YEAR\\Diabetic_Foot\\checkpoints\\primary_model_best.pt"
+}

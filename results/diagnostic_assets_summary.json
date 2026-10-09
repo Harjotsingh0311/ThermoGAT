@@ -1,0 +1,63 @@
+{
+  "fold0_best_epoch": 28,
+  "fold0_best_val_roc_auc": 0.8875,
+  "confusion_matrices": {
+    "tci_alone_0.5": {
+      "cm": [
+        [
+          37,
+          8
+        ],
+        [
+          32,
+          90
+        ]
+      ],
+      "accuracy": 0.7604790419161677,
+      "balanced_accuracy": 0.7799635701275045
+    },
+    "gat_alone_own_threshold": {
+      "cm": [
+        [
+          29,
+          16
+        ],
+        [
+          16,
+          106
+        ]
+      ],
+      "accuracy": 0.8083832335329342,
+      "balanced_accuracy": 0.756648451730419
+    },
+    "final_fusion_cv_threshold": {
+      "cm": [
+        [
+          37,
+          8
+        ],
+        [
+          29,
+          93
+        ]
+      ],
+      "accuracy": 0.7784431137724551,
+      "balanced_accuracy": 0.7922586520947177
+    }
+  },
+  "pr_auc": {
+    "tci_alone": 0.9503771493345378,
+    "gat_alone": 0.9536895954329301,
+    "final_fusion": 0.9603612215312588
+  },
+  "brier_scores": {
+    "tci_alone": 0.15887195639397894,
+    "final_fusion": 0.13392590156772083
+  },
+  "figures_saved": [
+    "results/figures/fig5_training_curve.png",
+    "results/figures/fig6_confusion_matrices.png",
+    "results/figures/fig7_pr_curve.png",
+    "results/figures/fig8_calibration.png"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "comparison_table": [
+    {
+      "model": "gat_prob",
+      "overlap_auc": 0.8725490196078431,
+      "overlap_n": 79,
+      "non_overlap_auc": 0.9374262101534829,
+      "non_overlap_n": 88
+    },
+    {
+      "model": "tci_prob",
+      "overlap_auc": 0.8581699346405229,
+      "overlap_n": 79,
+      "non_overlap_auc": 0.9008264462809917,
+      "non_overlap_n": 88
+    },
+    {
+      "model": "fusion_prob",
+      "overlap_auc": 0.8986928104575164,
+      "overlap_n": 79,
+      "non_overlap_auc": 0.9397874852420307,
+      "non_overlap_n": 88
+    },
+    {
+      "model": "demographics_only_prob",
+      "overlap_auc": 0.9394957983193277,
+      "overlap_n": 69,
+      "non_overlap_auc": 1.0,
+      "non_overlap_n": 71
+    }
+  ],
+  "within_overlap_age_stats": {
+    "Control": {
+      "n": 34,
+      "mean": 29.764705882352942,
+      "std": 8.4997640734795,
+      "min": 23.0,
+      "max": 52.0
+    },
+    "DM": {
+      "n": 45,
+      "mean": 45.86666666666667,
+      "std": 6.940002619858032,
+      "min": 23.0,
+      "max": 52.0
+    },
+    "mannwhitney_u": 170.0,
+    "mannwhitney_p": 3.575517275353747e-09
+  },
+  "overlap_age_range": {
+    "min": 23.0,
+    "max": 52.0
+  },
+  "overlap_subset_n": 79,
+  "overlap_subset_classes_present": 2,
+  "underpowered_warning": false
+}

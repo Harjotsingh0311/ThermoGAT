@@ -1,0 +1,42 @@
+[
+  {
+    "section": "Abstract / Results headline",
+    "content": "Final 3-way fusion metrics (Phase 24); DeLong p=0.0194 vs TCI alone (source: final_fusion_polish_summary.json:delong_vs_tci_alone/p_value)."
+  },
+  {
+    "section": "Methods / Architecture",
+    "content": "Structure ablation findings (Phase 17) \u2014 robustness to edge choice as a design strength."
+  },
+  {
+    "section": "Results, Table 1",
+    "content": "master_model_comparison.csv"
+  },
+  {
+    "section": "Results, Figure 1",
+    "content": "fig1_main_roc.png"
+  },
+  {
+    "section": "Results, Figure (secondary)",
+    "content": "fig6_confusion_matrices.png, fig7_pr_curve.png"
+  },
+  {
+    "section": "Results, robustness subsection",
+    "content": "fig2_robustness.png, fig5_training_curve.png"
+  },
+  {
+    "section": "Discussion, interpretability subsection",
+    "content": "fig3_interpretability.png; MCA convergence with k-GCNDFU."
+  },
+  {
+    "section": "Discussion, practical utility subsection",
+    "content": "uncertainty-rejection finding (Phase 20); fig8_calibration.png."
+  },
+  {
+    "section": "Discussion, negative-result subsection",
+    "content": "Bilateral graph (Phase 23) \u2014 a deliberately-tested, honestly-reported null result."
+  },
+  {
+    "section": "Limitations",
+    "content": "fig4_confound_check.png and the exact demographics-only AUC (1.000) vs. thermal-model AUC."
+  }
+]

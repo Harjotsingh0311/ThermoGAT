@@ -1,0 +1,50 @@
+[
+  {
+    "figure": "fig1_main_roc.png",
+    "present_on_disk": true,
+    "caption": "ROC overlay: TCI alone vs. DualBranchGAT alone vs. final 3-way fusion.",
+    "source_phase": 25
+  },
+  {
+    "figure": "fig2_robustness.png",
+    "present_on_disk": true,
+    "caption": "Robustness panel: multi-seed fusion AUC and structure-ablation fold-mean AUC.",
+    "source_phase": 25
+  },
+  {
+    "figure": "fig3_interpretability.png",
+    "present_on_disk": true,
+    "caption": "Interpretability panel: region importance by group and uncertainty by error-overlap group.",
+    "source_phase": 25
+  },
+  {
+    "figure": "fig4_confound_check.png",
+    "present_on_disk": true,
+    "caption": "Limitation panel: AUC on age-overlap ('hard') vs. non-overlap ('easy') subsets.",
+    "source_phase": 25
+  },
+  {
+    "figure": "fig5_training_curve.png",
+    "present_on_disk": true,
+    "caption": "Training/validation loss curve for fold 0 of the final model.",
+    "source_phase": 25
+  },
+  {
+    "figure": "fig6_confusion_matrices.png",
+    "present_on_disk": true,
+    "caption": "Confusion matrices for the final model.",
+    "source_phase": 25
+  },
+  {
+    "figure": "fig7_pr_curve.png",
+    "present_on_disk": true,
+    "caption": "Precision-recall curve for the final model.",
+    "source_phase": 25
+  },
+  {
+    "figure": "fig8_calibration.png",
+    "present_on_disk": true,
+    "caption": "Calibration plot for the final model's predicted probabilities.",
+    "source_phase": 25
+  }
+]

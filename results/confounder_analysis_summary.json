@@ -1,0 +1,69 @@
+{
+  "within_class_correlations": [
+    {
+      "comparison": "Control-Age",
+      "n": 45,
+      "spearman_rho": 0.21623837490064812,
+      "p_value": 0.15366793660589886
+    },
+    {
+      "comparison": "DM-Age",
+      "n": 122,
+      "spearman_rho": 0.013106897329266155,
+      "p_value": 0.8860641406551975
+    },
+    {
+      "comparison": "Control-BMI",
+      "n": 45,
+      "spearman_rho": 0.15520932845469984,
+      "p_value": 0.3086480024761586
+    },
+    {
+      "comparison": "DM-BMI",
+      "n": 95,
+      "spearman_rho": -0.14791640421947763,
+      "p_value": 0.15257154772634707
+    }
+  ],
+  "gender_subgroup_auc": [
+    {
+      "gender": "F",
+      "n": 105,
+      "auc": 0.9108146067415731
+    },
+    {
+      "gender": "M",
+      "n": 62,
+      "auc": 0.8662486938349008
+    }
+  ],
+  "demographics_only_baseline": {
+    "auc": 0.9782456140350878,
+    "n_pooled": 140,
+    "n_skipped_null_bmi_test": 27,
+    "tci_only_auc_reference": 0.859,
+    "fusion_auc_reference": 0.889
+  },
+  "atypical_subject_stress_test": {
+    "age_version": {
+      "control_median_age": 25.0,
+      "dm_median_age": 55.5,
+      "n_atypical": 1,
+      "n_typical": 166,
+      "accuracy_atypical": 1.0,
+      "accuracy_typical": 0.8012048192771084,
+      "accuracy_gap": -0.1987951807228916
+    },
+    "bmi_version_complete_case": {
+      "control_median_bmi": 25.050505050505052,
+      "dm_median_bmi": 29.1363163371488,
+      "n_atypical": 20,
+      "n_typical": 120,
+      "accuracy_atypical": 0.7,
+      "accuracy_typical": 0.8,
+      "accuracy_gap": 0.10000000000000009,
+      "note": "complete-case only, n=140"
+    }
+  },
+  "issues_found": []
+}

@@ -1,0 +1,32 @@
+{
+  "node_feature_names": [
+    "mean_abs_temp",
+    "std_abs_temp",
+    "mean_rel_temp",
+    "pixel_count",
+    "centroid_row_norm",
+    "centroid_col_norm"
+  ],
+  "node_feature_mean": [
+    28.86639404296875,
+    0.9413005113601685,
+    -0.03255420923233032,
+    1935.52587890625,
+    0.545102059841156,
+    0.502554178237915
+  ],
+  "node_feature_std": [
+    2.974191665649414,
+    0.4266098439693451,
+    0.6697842478752136,
+    1209.862548828125,
+    0.2408343106508255,
+    0.20934735238552094
+  ],
+  "raw_tissue_mean": 28.908849716186523,
+  "raw_tissue_std": 3.137549638748169,
+  "relative_tissue_mean": -2.9530093570429017e-07,
+  "relative_tissue_std": 1.2453471422195435,
+  "computed_from_split": "train",
+  "train_subject_foot_count": 232
+}
